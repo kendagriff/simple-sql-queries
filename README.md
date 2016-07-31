@@ -47,8 +47,9 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 5. Make a list of the 20 shortest tracks
 6. Find all the customers that live in California or Washington
 7. Find all the customers that live in California, Washington, Utah, Florida, or Arizona (Use IN keyword)
-8. Insert an artist to the database
-9. You can either continue exploring this dataset or look into setting up postgres on your local machine.
+8. Make distinct list of U.S. states for which there are invoices
+9. Insert an artist to the database
+10. You can either continue exploring this dataset or look into setting up postgres on your local machine.
 
 ## Copyright
 
