@@ -32,7 +32,12 @@ SELECT *
 FROM Customer
 WHERE State ON ('CA', 'WA', 'UT', 'FL', 'AZ'); -- !#*
 
--- #8 Insert an artist to the database
+-- #8 Make distinct list of U.S. states for which there are invoices
+SELECT DISTINCT BillingState
+FROM Invoice
+WHERE BillingCountry = 'USA'
+
+-- #9 Insert an artist to the database
 INSERT INTO Artist
 (ArtistId, Name)
 VALUES (276, 'Oingo Boingo');
